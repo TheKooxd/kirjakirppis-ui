@@ -12,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card {
+  margin: 10px 1%;
+  background-color: #eff1f4;
+  min-width: 320px;
+  max-width: 100%;
+}
+
+.bookCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.newNoticeContainer {
+  margin: 50px auto;
+  max-width: 800px;
+}
